@@ -16,7 +16,7 @@
         <script>
 
            let n = document.getElementById("url");
-           uri = `https://st-cky.vercel.app/${Math.round(Math.random()*10000000)}`
+           uri = `https://${window.location.hostname}/${Math.round(Math.random()*10000000)}`
            n.innerHTML = `<a href="${uri}">${uri}</a>`;
         </script>
     </body>
